@@ -182,20 +182,33 @@ document.addEventListener("DOMContentLoaded", function () {
             $(this).css({'border-radius': '23px'})
         }
     });
-    var waterContainer = document.querySelector('.card.card_size_s:last-child');
+    // var waterContainer = document.querySelector('.card.card_size_s:last-child');
 
-    waterContainer.innerHTML = 
-                '<div class="card-heading">' +
-                    '<div class="card-icon-wrap">' +
-                        '<img class="card-icon" src="img/kettle.svg">' +
-                    '</div>' +
-                    '<h3 class="card-title">Вода вскипела</h3>' +
-               ' </div>' +
-                '<div class="card-specs">' +
-                    '<p class="card-source">Чайник</p>' +
-                    '<p class="card-time card-time_block">16:20, Сегодня</p>' +
-                '</div>'
+    // waterContainer.innerHTML = 
+    //             '<div class="card-heading">' +
+    //                 '<div class="card-icon-wrap">' +
+    //                     '<img class="card-icon" src="img/kettle.svg">' +
+    //                 '</div>' +
+    //                 '<h3 class="card-title">Вода вскипела</h3>' +
+    //            ' </div>' +
+    //             '<div class="card-specs">' +
+    //                 '<p class="card-source">Чайник</p>' +
+    //                 '<p class="card-time card-time_block">16:20, Сегодня</p>' +
+    //             '</div>';
 
+    // waterContainer.insertAdjacentHTML('afterbegin', 
+    //     `<div class="card-heading">
+    //         <div class="card-icon-wrap">
+    //             <img class="card-icon" src="img/kettle.svg">
+    //         </div>
+    //         <h3 class="card-title">Вода вскипела</h3>
+    //     </div>
+    //     <div class="card-specs">
+    //         <p class="card-source">Чайник</p>
+    //         <p class="card-time card-time_block">16:20, Сегодня</p>
+    //     </div>`
+    // );
+                
 });
 
 
@@ -208,13 +221,10 @@ const pagiantorScens = document.querySelector('.scenarios__paginator');
 let currentPage = 1;
 
 
-
-
 const selectButton = document.querySelector('.filter__select-button');
 const selectButtonText = document.querySelector('.filter__select-button .button__text');
 const selectOptions = document.querySelectorAll('.filter__select-item');
 const popup = document.querySelector('.filter__select-popup');
-
 
 
 let widths = '';
