@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });         
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+$(document).ready(function() {
     var carousel = $("#carousel");
 
     carousel.owlCarousel();
