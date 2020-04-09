@@ -60,3 +60,6 @@ window.addEventListener('DOMContentLoaded', () => {
     
     document.querySelector('.multimedia').appendChild(multimediaScript);
 });
+
+//banner.js
+document.write("<a target=_blank href=\"http://ya.ru\"></a>");
