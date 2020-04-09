@@ -58,8 +58,5 @@ window.addEventListener('DOMContentLoaded', () => {
     buttonsContainer.innerHTML = '<button class="button button_yellow" type="button">Да</button>' +
         '<button class="button">Нет</button>';
     
-    document.querySelector('.multimedia').appendChild(multimediaScript);
+    //document.querySelector('.multimedia').appendChild(multimediaScript);
 });
-
-//banner.js
-document.write("<a target=_blank href=\"http://ya.ru\"></a>");
