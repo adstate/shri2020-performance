@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             $(this).css({'border-radius': '23px'})
         }
-    });         
+    });
 });
 
 $(document).ready(function() {
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
             fridgeInfoContainer.replaceWith(purchaseListContainer)
             buttonsContainer.style.display = "none";
         }
-    }, 500);
+     }, 500);
    
     document.getElementsByClassName("header-menu__switcher")[0].addEventListener("click", function () {
         document.getElementsByClassName("header-menu")[0].classList.toggle("header-menu_active")
