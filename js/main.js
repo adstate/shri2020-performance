@@ -1,17 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('.card').forEach(function(e) {
-        if (e.classList.contains('card_size_s')) {
-            e.style.borderRadius = '22px';
-        } else {
-            e.style.borderRadius = '23px';
-        }
-    });
-
-    document.querySelector('.buttons-wrap').innerHTML = '<button class="button button_yellow" type="button">Да</button>' +
-        '<button class="button">Нет</button>';
-});
-
-document.addEventListener("DOMContentLoaded", function () {
     var buttonsContainer = document.querySelector(".buttons-wrap");
     var fridgeInfoContainer = document.querySelector(".card_size_m:nth-child(8) .card-description");
     setTimeout(function() {
@@ -45,4 +32,15 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementsByClassName("header-menu__switcher")[0].addEventListener("click", function () {
         document.getElementsByClassName("header-menu")[0].classList.toggle("header-menu_active")
     })
+
+    document.querySelectorAll('.card').forEach(function(e) {
+        if (e.classList.contains('card_size_s')) {
+            e.style.borderRadius = '22px';
+        } else {
+            e.style.borderRadius = '23px';
+        }
+    });
+
+    document.querySelector('.buttons-wrap').innerHTML = '<button class="button button_yellow" type="button">Да</button>' +
+        '<button class="button">Нет</button>';
 });
