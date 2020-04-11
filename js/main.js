@@ -9,15 +9,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    const buttonsContainer = document.querySelector(".buttons-wrap");
-    const fridgeInfoContainer = document.querySelector(".card_size_m:nth-child(8) .card-description");
+    var buttonsContainer = document.querySelector(".buttons-wrap");
+    var fridgeInfoContainer = document.querySelector(".card_size_m:nth-child(8) .card-description");
     setTimeout(function() {
-        const confirmPurchaseButton = document.querySelector(".buttons-wrap .button_yellow");
-        const purchaseListContainer = document.createElement('div');
-        const purchaseListTitle = document.createElement('p');
-        const purchaseList = document.createElement('ol');
-        const purchaseListItemOne = document.createElement('li');
-        const purchaseListItemTwo = document.createElement('li');
+        var confirmPurchaseButton = document.querySelector(".buttons-wrap .button_yellow");
+        var purchaseListContainer = document.createElement('div');
+        var purchaseListTitle = document.createElement('p');
+        var purchaseList = document.createElement('ol');
+        var purchaseListItemOne = document.createElement('li');
+        var purchaseListItemTwo = document.createElement('li');
 
         purchaseListContainer.setAttribute('class', 'purchase-list-wrap');
         purchaseListTitle.setAttribute('class', 'card-description card-description_big description_critical');
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         purchaseList.appendChild(purchaseListItemOne);
         purchaseList.appendChild(purchaseListItemTwo);
 
-        confirmPurchaseButton.onclick = () => {
+        confirmPurchaseButton.onclick = function() {
             fridgeInfoContainer.replaceWith(purchaseListContainer)
             buttonsContainer.style.display = "none";
         }
@@ -44,9 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 }, !1);
 
-window.addEventListener('DOMContentLoaded', () => {
-    const buttonsContainer = document.querySelector('.buttons-wrap');
-
-    buttonsContainer.innerHTML = '<button class="button button_yellow" type="button">Да</button>' +
+window.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.buttons-wrap').innerHTML = '<button class="button button_yellow" type="button">Да</button>' +
         '<button class="button">Нет</button>';
 });
