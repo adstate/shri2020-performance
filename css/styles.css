@@ -817,36 +817,36 @@ html {
     -webkit-columns: #000;
     columns: #000;
     padding-top: 23px;
-    margin-bottom: 9px
+    margin-bottom: 9px;
 }
 
 .card-description_big {
     font-size: 24px;
     padding: 24px 50px 0 0;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .description_critical {
-    background: url(../img/cbg.jpg);
+    background-color: #ebebeb;
     color: #000;
     border-radius: 20px;
     margin-top: -20px;
     box-sizing: border-box;
     padding: 23px 20px;
-    touch-action: none
+    touch-action: none;
 }
 
 .heading-critical {
     background: #db5341;
     box-sizing: border-box;
     padding: 0 20px;
-    border-radius: 20px 20px 0 0
+    border-radius: 20px 20px 0 0;
 }
 
 .specs-critical {
     background: #db5341;
     box-sizing: border-box;
-    padding: 0 20px 28px 20px
+    padding: 0 20px 28px 20px;
 }
 
 .critical-cam {
@@ -858,66 +858,66 @@ html {
     border-radius: 20px;
     background-size: cover;
     background-position: 0 0;
-    touch-action: none
+    touch-action: none;
 }
 
 .card-data_graph {
     border-radius: 20px;
     width: 100%;
     overflow: hidden;
-    padding-top: 90px
+    padding-top: 90px;
 }
 
 .card-data_graph-img {
     width: 100%;
-    margin-bottom: -4px
+    margin-bottom: -4px;
 }
 
 .card-data_climat {
     font-size: 18px;
     padding-top: 19px;
-    margin-bottom: -10px
+    margin-bottom: -10px;
 }
 
 .climat-block {
     display: inline-block;
     padding-right: 48px;
-    padding-bottom: 11px
+    padding-bottom: 11px;
 }
 
 .climat-block_data {
-    font-weight: 700
+    font-weight: 700;
 }
 
 .song-area {
     display: block;
     height: 53px;
-    margin-top: 29px
+    margin-top: 29px;
 }
 
 .cover-wrap {
     float: left;
     width: 53px;
     height: 53px;
-    margin-left: 2px
+    margin-left: 2px;
 }
 
 .cover {
     width: 100%;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 .song-data {
     float: left;
     padding-left: 15px;
-    margin-right: -20px
+    margin-right: -20px;
 }
 
 .song-title {
     font-size: 20px;
     color: #000;
     padding-top: 2px;
-    padding-bottom: 18px
+    padding-bottom: 18px;
 }
 
 .song-range {
