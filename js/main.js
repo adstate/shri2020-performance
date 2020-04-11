@@ -1,11 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
-    $('.card').each(function(e) {
-        if ($(this).hasClass('card_size_s')) {
-            $(this).css({'border-radius': '22px'})
+    document.querySelectorAll('.card').forEach(function(e) {
+        if (e.classList.contains('card_size_s')) {
+            e.style.borderRadius = '22px';
         } else {
-            $(this).css({'border-radius': '23px'})
+            e.style.borderRadius = '23px';
         }
     });
+
+    // $('.card').each(function(e) {
+    //     if ($(this).hasClass('card_size_s')) {
+    //         $(this).css({'border-radius': '22px'})
+    //     } else {
+    //         $(this).css({'border-radius': '23px'})
+    //     }
+    // });
 });
 
 // $(document).ready(function() {
