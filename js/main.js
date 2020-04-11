@@ -6,21 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             e.style.borderRadius = '23px';
         }
     });
-
-    // $('.card').each(function(e) {
-    //     if ($(this).hasClass('card_size_s')) {
-    //         $(this).css({'border-radius': '22px'})
-    //     } else {
-    //         $(this).css({'border-radius': '23px'})
-    //     }
-    // });
 });
-
-// $(document).ready(function() {
-//     var carousel = $("#carousel");
-
-//     carousel.owlCarousel();
-// });
 
 document.addEventListener("DOMContentLoaded", function () {
     const buttonsContainer = document.querySelector(".buttons-wrap");
@@ -59,12 +45,8 @@ document.addEventListener("DOMContentLoaded", function () {
 }, !1);
 
 window.addEventListener('DOMContentLoaded', () => {
-    const multimediaScript = document.createElement('script');
-    multimediaScript.setAttribute('src','./js/multimedia.js');
     const buttonsContainer = document.querySelector('.buttons-wrap');
 
     buttonsContainer.innerHTML = '<button class="button button_yellow" type="button">Да</button>' +
         '<button class="button">Нет</button>';
-    
-    //document.querySelector('.multimedia').appendChild(multimediaScript);
 });
