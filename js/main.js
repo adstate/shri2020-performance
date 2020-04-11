@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-$(document).ready(function() {
-    var carousel = $("#carousel");
+// $(document).ready(function() {
+//     var carousel = $("#carousel");
 
-    carousel.owlCarousel();
-});
+//     carousel.owlCarousel();
+// });
 
 document.addEventListener("DOMContentLoaded", function () {
     const buttonsContainer = document.querySelector(".buttons-wrap");
